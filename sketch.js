@@ -73,15 +73,10 @@ function draw() {
 //   balloon.y = height.y;
 // }
 
- function readHeight(data){
-   height = data.val();
-   balloon.x = height.x;
-   balloon.y = height.y;
- }
 
-// function readHeight(data){
-//   height = data.val();
-// }
+ function readHeight(data){
+  height = data.val();
+}
 
 // function readHeight(){
 //   height = val();
